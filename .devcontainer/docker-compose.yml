@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app:
+    image: jupyter/scipy-notebook:latest
+    volumes:
+      - .:/workspace
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:6
+    ports:
+      - "27017:27017"

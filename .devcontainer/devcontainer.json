@@ -1,0 +1,7 @@
+{
+  "name": "Data Science JupyterLab + MongoDB",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "runServices": ["mongodb"]
+}
