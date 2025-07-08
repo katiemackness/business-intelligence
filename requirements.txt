@@ -1,0 +1,18 @@
+# To install, run:
+# pip install -r requirements.txt
+
+# Core Data Science
+pandas
+numpy
+matplotlib
+seaborn
+
+# MongoDB Connector
+pymongo
+
+# Jupyter Kernel Support
+ipykernel
+
+# Optional but Helpful
+notebook         # Jupyter classic interface
+jupyterlab       # Full JupyterLab experience
